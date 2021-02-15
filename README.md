@@ -13,8 +13,7 @@ Spotter is a bouldering library for climbers. View problems that others have pos
 [Link to Component Heirarchy](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613334595/Screen_Shot_2021-02-14_at_3.29.40_PM_dbzoup.png)
 
 ## API and Data Sample
-
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
+data snippet from airtable API
 
 ```json
 {
