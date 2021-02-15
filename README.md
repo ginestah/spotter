@@ -89,7 +89,8 @@ data snippet from airtable API
 | Media Queries for mobile|H| 3hrs| | |
 | Post MVP Styling |L|3hrs| | |
 | Post MVP rating |L|3hrs| | |
-| Total |  | 35hrs| | |
+|Post MVP carousel view|L| | |
+| Total |  | 37hrs| | |
 
 ### Strengths:
 I believe I am pretty strong in bulding components, I think getting my data on the page will be quick and painless.
