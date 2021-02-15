@@ -56,42 +56,47 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 #### PostMVP  
 
 
-- Create carousel viewing of 
+- Create carousel viewing of mainpage climbs
 - Incorporate a rating system? Would need to keep track of total votes and average somehow.
+- Lots of CSS work
 
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|February 15| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|February 16| Project Approval | Incomplete
+|Febryary 17| Finished components, base clickable model| Incomplete
+|February 18| Add media queries for mobile site| Incomplete
+|February 19| MVP| Incomplete
+|February 20| Post-MVPs | Incomplete
+|February 23| Presentations | Incomplete
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
-
-## SWOT Analysis
+| Creating more starter data in airtable | H | 1hr| | |
+| Nav Component| H | 2hrs| |  |
+| Home Component|H|3hrs| | |
+| Boulder Component|H|3hrs| | |
+| Detail Component|H|3hrs| | |
+| Form Component|H|3hrs| | |
+| About Component|H|2hrs| | |
+| Linking/Routing Components|H|3hrs| | |
+| Figuring out params for detail component|H| 3hrs| | |
+| Basic CSS for each component|M| 3hrs| | |
+| Media Queries for mobile|H| 3hrs| | |
+| Post MVP Styling |L|3hrs| | |
+| Post MVP rating |L|3hrs| | |
+| Total |  | 35hrs| | |
 
 ### Strengths:
-
+I believe I am pretty strong in bulding components, I think getting my data on the page will be quick and painless.
 ### Weaknesses:
-
+Linking and routing has given me difficulty, especially useParams. I think it will be hard to  get these to work.
 ### Opportunities:
-
+I think I will finish MVP ahead of schedule which will give me the opportunity to really work on my styling, and I really need to work on CSS in general so this will be a good time to practice.
 ### Threats:
+I don't foresee any threats, but I think I will have difficulty with some of my post-mvps and if I do I don't think my app will look as good as it could. I am really banking on a nice carousel but if it doesn't work I am not sure if it will look as good.
