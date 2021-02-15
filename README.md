@@ -4,7 +4,7 @@
 
 ## Project Description
 
-Spotter is a bouldering library for climbers. View problems that others have posted, the difficulty of the climb, how they rated it, where it was located, and a description of the climb/beta(best moves to finish the climb)
+Spotter is a bouldering library for climbers. View problems that others have posted, the difficulty of the climb, how they rated it, where it was located, and a description of the climb/beta(best moves to finish the climb). Rate the climbs if you've finished them, and search for climbs in a specific area.
 
 ## Wireframes
 ![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613336079/Screen_Shot_2021-02-14_at_3.54.15_PM_cifxcr.png) desktop homepage
