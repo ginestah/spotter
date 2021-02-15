@@ -20,53 +20,45 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 {
     "records": [
         {
-            "id": "recONRzIUTuZ5lXaF",
+            "id": "recUoGqKmfIUhHYuU",
             "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
+                "quality": "5",
+                "photo": "https://res.cloudinary.com/dpbzq29kr/image/upload/v1613317217/Screenshot_20210214-103820_2_ctmrr7.png",
+                "difficulty": "V5",
+                "problem": "Rubber Walrus Protector",
+                "author": "Huck",
+                "location": "Socorro,NM"
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-02-14T15:31:45.000Z"
         },
         {
-            "id": "rec3oYZ5Tp0AIDsKe",
-            "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "id": "recFdywHbnaSbYNbb",
+            "fields": {},
+            "createdTime": "2021-02-14T15:31:45.000Z"
         },
         {
-            "id": "recA34tOaoE1IVeC1",
-            "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "id": "recpwsJgyq43DSh3d",
+            "fields": {},
+            "createdTime": "2021-02-14T15:31:45.000Z"
         }
     ],
-    "offset": "recA34tOaoE1IVeC1"
+    "offset": "recpwsJgyq43DSh3d"
 }
 ```
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Create meaningful/useful data with airtable
+- Allow users to view boulder problems on the main page
+- Clickable photo link to a details page
+- Allow users to fill out a form to add their own boulder problems
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+
+- Create carousel viewing of 
+- Incorporate a rating system? Would need to keep track of total votes and average somehow.
+
 
 ## Project Schedule
 
