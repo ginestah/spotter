@@ -7,8 +7,11 @@
 Spotter is a bouldering library for climbers. View problems that others have posted, the difficulty of the climb, how they rated it, where it was located, and a description of the climb/beta(best moves to finish the climb). Rate the climbs if you've finished them, and search for climbs in a specific area.
 
 ## Wireframes
-![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613336079/Screen_Shot_2021-02-14_at_3.54.15_PM_cifxcr.png) desktop homepage
-![mobile wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_469/v1613431088/Spotter/Screen_Shot_2021-02-15_at_6.12.52_PM_lnolsv.png) mobile homepage
+desktop homepage
+![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613336079/Screen_Shot_2021-02-14_at_3.54.15_PM_cifxcr.png)
+
+Mobile Homepage
+![mobile wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_469/v1613431088/Spotter/Screen_Shot_2021-02-15_at_6.12.52_PM_lnolsv.png)
 
 ## Component Hierarchy
 ![Component Heirarchy](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613334595/Screen_Shot_2021-02-14_at_3.29.40_PM_dbzoup.png)
