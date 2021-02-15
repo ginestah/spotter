@@ -8,6 +8,7 @@ Spotter is a bouldering library for climbers. View problems that others have pos
 
 ## Wireframes
 ![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613336079/Screen_Shot_2021-02-14_at_3.54.15_PM_cifxcr.png) desktop homepage
+![mobile wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613430815/Spotter/Screen_Shot_2021-02-15_at_6.12.52_PM_lnolsv.png) mobile homepage
 
 ## Component Hierarchy
 [Link to Component Heirarchy](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613334595/Screen_Shot_2021-02-14_at_3.29.40_PM_dbzoup.png)
