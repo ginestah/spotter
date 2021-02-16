@@ -27,8 +27,10 @@ data snippet from airtable API
             "fields": {
                 "quality": "5",
                 "photo": "https://res.cloudinary.com/dpbzq29kr/image/upload/v1613317217/Screenshot_20210214-103820_2_ctmrr7.png",
+                "ratings": "1",
                 "difficulty": "V5",
                 "problem": "Rubber Walrus Protector",
+                "description": "very pressy climb, small holds so its important to stay tight to the wall. Make small moves moving up along the arete, keeping body tight.",
                 "author": "Huck",
                 "location": "Socorro,NM"
             },
