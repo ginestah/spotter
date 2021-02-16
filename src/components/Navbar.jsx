@@ -15,6 +15,10 @@ function Navbar(props) {
           <li>
             <Link to="/about">About</Link>
           </li>
+          <li>
+            <input id="search-input" type="text" />
+            <button>Search</button>
+          </li>
         </ul>
       </nav>
     </header>

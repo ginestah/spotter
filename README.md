@@ -100,7 +100,7 @@ data snippet from airtable API
 | Home Component                           |    H     |      3hrs      |     2hrs      |    2hrs     |
 | Boulder Component                        |    H     |      3hrs      |               |             |
 | Detail Component                         |    H     |      3hrs      |               |             |
-| Form Component                           |    H     |      3hrs      |               |             |
+| Form Component                           |    H     |      3hrs      |     3hrs      |    3hrs     |
 | About Component                          |    H     |      2hrs      |               |             |
 | Linking/Routing Components               |    H     |      3hrs      |               |             |
 | Figuring out params for detail component |    H     |      3hrs      |               |             |
