@@ -8,10 +8,18 @@ Spotter is a bouldering library for climbers. View problems that others have pos
 
 ## Wireframes
 desktop homepage
-![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613336079/Screen_Shot_2021-02-14_at_3.54.15_PM_cifxcr.png)
+![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613336079/Screen_Shot_2021-02-14_at_3.54.15_PM_cifxcr.png)
+desktop form
+![desktop form](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613492544/Spotter/Screen_Shot_2021-02-16_at_11.22.11_AM_tblmji.png)
+desktop details
+![destop details page](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613492106/Spotter/Screen_Shot_2021-02-16_at_11.14.34_AM_itymgr.png)
 
 Mobile Homepage
-![mobile wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_469/v1613431088/Spotter/Screen_Shot_2021-02-15_at_6.12.52_PM_lnolsv.png)
+![mobile wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_240/v1613431088/Spotter/Screen_Shot_2021-02-15_at_6.12.52_PM_lnolsv.png)
+Mobile Form
+![mobile form](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_240/v1613493216/Spotter/Screen_Shot_2021-02-16_at_11.33.22_AM_x7126r.png)
+Mobile Details
+![mobile details](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_240/v1613493216/Spotter/Screen_Shot_2021-02-16_at_11.26.11_AM_l2bvxe.png)
 
 ## Component Hierarchy
 ![Component Heirarchy](https://res.cloudinary.com/dpbzq29kr/image/upload/v1613334595/Screen_Shot_2021-02-14_at_3.29.40_PM_dbzoup.png)
