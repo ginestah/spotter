@@ -83,8 +83,8 @@ data snippet from airtable API
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|February 15| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|February 16| Project Approval | Incomplete
+|February 15| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|February 16| Project Approval | Complete
 |Febryary 17| Finished components, base clickable model| Incomplete
 |February 18| Add media queries for mobile site| Incomplete
 |February 19| MVP| Incomplete
