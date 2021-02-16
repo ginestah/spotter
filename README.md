@@ -1,6 +1,7 @@
 # Project Overview
 
-## Spotter
+## App Name
+Spotter
 
 ## Project Description
 
