@@ -10,7 +10,27 @@ function Form() {
   const [photo, setPhoto] = useState("");
   const [description, setDescription] = useState("");
   const [author, setAuthor] = useState("");
+  const history = useHistory();
 
+  const checkButton = () => {
+    if (
+      title == "" ||
+      difficulty == "" ||
+      location == "" ||
+      photo == "" ||
+      description == "" ||
+      author == ""
+    ) {
+      return (
+        <>
+          <input disabled={true} type="submit"></input>
+          <h3>Please fill out all inputs to submit form.</h3>
+        </>
+      );
+    } else {
+      return <input disabled={false} type="submit"></input>;
+    }
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = {
@@ -22,6 +42,7 @@ function Form() {
       author,
     };
     await axios.post(baseURL, { fields }, config);
+    history.push("/");
   };
 
   return (
@@ -71,7 +92,7 @@ function Form() {
           id="description"
           onChange={(e) => setDescription(e.target.value)}
         ></textarea>
-        <input type="submit"></input>
+        {checkButton()}
       </form>
     </>
   );

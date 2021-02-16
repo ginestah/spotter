@@ -22,8 +22,21 @@ function Home(props) {
         <div key={boulder.id}>
           <h3>{boulder.fields.title}</h3>
           <Link to={`/problem/${boulder.id}`}>
-            <img className="boulder-photo" src={boulder.fields.photo} />
+            <img
+              className="boulder-photo"
+              src={boulder.fields.photo}
+              alt={boulder.fields.title}
+            />
           </Link>
+          <p>
+            {boulder.fields.quality == 5 ? (
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+            ) : boulder.fields.quality == 4 ? (
+              <p>⭐️⭐️⭐️⭐️</p>
+            ) : boulder.fields.quality == 3 ? (
+              <p>⭐️⭐️⭐️</p>
+            ) : null}
+          </p>
         </div>
       ))}
     </div>
