@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { baseURL, config } from "../services";
+import { baseURL, config } from "../../services";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -28,7 +28,7 @@ function Home(props) {
               alt={boulder.fields.title}
             />
           </Link>
-          <p>
+          <>
             {boulder.fields.quality == 5 ? (
               <p>⭐️⭐️⭐️⭐️⭐️</p>
             ) : boulder.fields.quality == 4 ? (
@@ -36,7 +36,7 @@ function Home(props) {
             ) : boulder.fields.quality == 3 ? (
               <p>⭐️⭐️⭐️</p>
             ) : null}
-          </p>
+          </>
         </div>
       ))}
     </div>

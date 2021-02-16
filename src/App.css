@@ -1,0 +1,10 @@
+.App {
+  background-color: #66101f;
+  display: grid;
+}
+.boulder-photo {
+  border-radius: 25%;
+}
+header {
+  margin: 0 0;
+}

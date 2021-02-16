@@ -3,9 +3,10 @@ import './App.css';
 
 import { Route } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
 import Form from './components/Form';
+import About from './components/About';
 
 
 
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route exact path='/new'>
         <Form />
+      </Route>
+      <Route exact path='/about'>
+        <About/>
       </Route>
     </div>
   );
