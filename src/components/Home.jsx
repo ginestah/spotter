@@ -3,14 +3,13 @@ import axios from "axios";
 import { baseURL, config } from "../services";
 
 function Home(props) {
-  const [title, setTitle] = useState("");
-  const [location, setLocation] = useState("");
-  const [difficulty, setDifficulty] = useState("");
+  const [boulder, setBoulder] = useState([]);
 
   useEffect(() => {
     const getBoulders = async () => {
       const resp = await axios.get(baseURL, config);
       console.log(resp.data.records);
+      setBoulder(resp.data.records);
     };
     getBoulders();
   }, []);
