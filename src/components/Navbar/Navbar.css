@@ -1,9 +1,17 @@
-ul {
+#nav-links {
   list-style: none;
+  font-size: inherit;
+  text-decoration: none;
+  border: ivory;
 }
 header {
   background-color: #f3b3a6;
+  grid-column: 1/-1;
+  border: olive;
+  padding: 5px;
+  display: grid;
 }
-a {
+#nav-links a {
   color: #306b34;
+  text-decoration: none;
 }

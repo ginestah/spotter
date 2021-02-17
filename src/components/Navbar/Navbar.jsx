@@ -5,7 +5,7 @@ function Navbar(props) {
   return (
     <header>
       <nav id="nav">
-        <ul>
+        <ul id="nav-links">
           <li>
             <Link to="/">Home</Link>
           </li>

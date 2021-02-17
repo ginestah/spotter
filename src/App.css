@@ -1,10 +1,8 @@
-.App {
+body {
   background-color: #66101f;
+}
+.App {
   display: grid;
-}
-.boulder-photo {
-  border-radius: 25%;
-}
-header {
-  margin: 0 0;
+  grid-template-columns: minmax(10px, 5fr) minmax(10px, 5fr);
+  grid-template-rows: min-content min-content 5fr min-content;
 }
