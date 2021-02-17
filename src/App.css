@@ -3,6 +3,4 @@ body {
 }
 .App {
   display: grid;
-  grid-template-columns: minmax(10px, 5fr) minmax(10px, 5fr);
-  grid-template-rows: min-content min-content 5fr min-content;
 }

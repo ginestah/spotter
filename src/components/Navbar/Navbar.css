@@ -9,7 +9,6 @@ header {
   grid-column: 1/-1;
   border: olive;
   padding: 5px;
-  display: grid;
 }
 #nav-links a {
   color: #306b34;
