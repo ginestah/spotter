@@ -5,12 +5,25 @@
   padding: 2px;
   margin: 0 auto;
 }
-#details-title {
-}
+
 #details-photo {
   width: 70vw;
   height: auto;
 }
-#details-quality {
-  z-index: 1;
+/* .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  color: gold;
+} */
+
+.rating:hover {
+  color: gold;
+}
+.current-rating {
+  color: gold;
 }

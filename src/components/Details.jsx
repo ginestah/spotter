@@ -1,4 +1,6 @@
 import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import axios from "axios";
 import "./Details.css";
 function Details(props) {
   const params = useParams();
@@ -10,13 +12,18 @@ function Details(props) {
     <div id="details">
       <h1 id="details-title">{climb.fields.title}</h1>
       <img id="details-photo" src={climb.fields.photo} />
-      {climb.fields.quality == 5 ? (
-        <p id="details-quality">⭐️⭐️⭐️⭐️⭐️</p>
-      ) : climb.fields.quality == 4 ? (
-        <p id="details-quality">⭐️⭐️⭐️⭐️</p>
-      ) : climb.fields.quality == 3 ? (
-        <p id="details-quality">⭐️⭐️⭐️</p>
-      ) : null}
+      <div>
+        <h3>Rate it:</h3>
+        <span class="rating">☆</span>
+        <span class="rating">☆</span>
+        <span class="rating">☆</span>
+        <span class="rating">☆</span>
+        <span class="rating">☆</span>
+      </div>
+      <p>
+        Currently rated:{climb.fields.quality}
+        <span className="current-rating">☆</span>'s
+      </p>
       <main id="details-description">{climb.fields.description}</main>
       <p>{climb.fields.location}</p>
       <p>Contributed by: {climb.fields.author}</p>

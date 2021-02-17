@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Boulder(props) {
   return (
-    <div>
+    <div id="boulder">
       {props.boulders.map((boulder) => (
         <div id="boulder-link" key={boulder.id}>
           <h3>

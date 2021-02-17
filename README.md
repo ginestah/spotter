@@ -99,10 +99,10 @@ data snippet from airtable API
 | Nav Component                            |    H     |      2hrs      |      1hr      |     1hr     |
 | Home Component                           |    H     |      3hrs      |     2hrs      |    2hrs     |
 | Boulder Component                        |    H     |      3hrs      |               |             |
-| Detail Component                         |    H     |      3hrs      |               |             |
+| Detail Component                         |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Form Component                           |    H     |      3hrs      |     3hrs      |    3hrs     |
 | About Component                          |    H     |      2hrs      |               |             |
-| Linking/Routing Components               |    H     |      3hrs      |               |             |
+| Linking/Routing Components               |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Figuring out params for detail component |    H     |      3hrs      |               |             |
 | Basic CSS for each component             |    M     |      3hrs      |               |             |
 | Media Queries for mobile                 |    H     |      3hrs      |               |             |
