@@ -1,18 +1,16 @@
 #details {
   display: grid;
+  color: #cadbc0;
+  border: 1px solid #b98b82;
+  padding: 2px;
+  margin: 0 auto;
 }
 #details-title {
 }
 #details-photo {
-  position: relative;
-  grid-row: 2/4;
-  grid-column: 1/2;
   width: 70vw;
   height: auto;
 }
 #details-quality {
   z-index: 1;
-  grid-column: 3/4;
-  grid-row: 3/4;
-  position: sticky;
 }

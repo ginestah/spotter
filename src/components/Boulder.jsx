@@ -6,8 +6,10 @@ function Boulder(props) {
   return (
     <div>
       {props.boulders.map((boulder) => (
-        <div key={boulder.id}>
-          <h3>{boulder.fields.title}</h3>
+        <div id="boulder-link" key={boulder.id}>
+          <h3>
+            {boulder.fields.title}, {boulder.fields.location}
+          </h3>
           <Link to={`/details/${boulder.id}`}>
             <img
               className="boulder-photo"
@@ -15,13 +17,6 @@ function Boulder(props) {
               alt={boulder.fields.title}
             />
           </Link>
-          {boulder.fields.quality == 5 ? (
-            <p>⭐️⭐️⭐️⭐️⭐️</p>
-          ) : boulder.fields.quality == 4 ? (
-            <p>⭐️⭐️⭐️⭐️</p>
-          ) : boulder.fields.quality == 3 ? (
-            <p>⭐️⭐️⭐️</p>
-          ) : null}
         </div>
       ))}
     </div>

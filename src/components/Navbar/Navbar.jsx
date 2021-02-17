@@ -4,6 +4,10 @@ import "./Navbar.css";
 function Navbar(props) {
   return (
     <header>
+      <h5>
+        Spotter:
+        <br />A Boulder Library
+      </h5>
       <nav id="nav">
         <ul id="nav-links">
           <li>
@@ -14,10 +18,6 @@ function Navbar(props) {
           </li>
           <li>
             <Link to="/about">About</Link>
-          </li>
-          <li>
-            <input id="search-input" type="text" />
-            <button>Search</button>
           </li>
         </ul>
       </nav>

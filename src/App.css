@@ -2,5 +2,11 @@ body {
   background-color: #66101f;
 }
 .App {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boulder-photo {
+  border-radius: 25%;
+  width: 50vmin;
+  height: auto;
 }

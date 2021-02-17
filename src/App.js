@@ -13,8 +13,6 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { baseURL, config } from './services';
 
-
-
 function App() {
   const [boulders, setBoulders] = useState([]);
 
