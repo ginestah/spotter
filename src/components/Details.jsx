@@ -4,42 +4,42 @@ import axios from "axios";
 import "./Details.css";
 function Details(props) {
   const params = useParams();
-  let num = 0;
+  let newQuality = 0;
 
   const handleClick = (e) => {
     let x = e.target.id;
     switch (x) {
       case "one":
         console.log("button 1 was clicked");
-        num =
+        newQuality =
           (climb.fields.quality * climb.fields.ratings + 1) /
           (climb.fields.ratings + 1);
         patchQuality();
         break;
       case "two":
         console.log("button two was clicked");
-        num =
+        newQuality =
           (climb.fields.quality * climb.fields.ratings + 2) /
           (climb.fields.ratings + 1);
         patchQuality();
         break;
       case "three":
         console.log("button 3");
-        num =
+        newQuality =
           (climb.fields.quality * climb.fields.ratings + 3) /
           (climb.fields.ratings + 1);
         patchQuality();
         break;
       case "four":
         console.log("button 4");
-        num =
+        newQuality =
           (climb.fields.quality * climb.fields.ratings + 4) /
           (climb.fields.ratings + 1);
         patchQuality();
         break;
       case "five":
         console.log("button five");
-        num =
+        newQuality =
           (climb.fields.quality * climb.fields.ratings + 5) /
           (climb.fields.ratings + 1);
         patchQuality();
@@ -51,7 +51,7 @@ function Details(props) {
 
   const patchQuality = async (quality) => {
     const fields = {
-      quality: num,
+      quality: newQuality,
       ratings: climb.fields.ratings + 1,
     };
     const boulderURL = `${baseURL}/${params.id}`;
@@ -67,6 +67,10 @@ function Details(props) {
     <div id="details">
       <h1 id="details-title">{climb.fields.title}</h1>
       <img id="details-photo" src={climb.fields.photo} />
+      <p>
+        Currently rated:{climb.fields.quality.toPrecision(3)}
+        <span className="current-rating">☆</span>'s
+      </p>
       <div>
         <h3>Rate it:</h3>
         <span onClick={handleClick} id="one" className="rating">
@@ -85,10 +89,8 @@ function Details(props) {
           ☆
         </span>
       </div>
-      <p>
-        Currently rated:{climb.fields.quality.toPrecision(3)}
-        <span className="current-rating">☆</span>'s
-      </p>
+      <br />
+
       <main id="details-description">{climb.fields.description}</main>
       <p>{climb.fields.location}</p>
       <p>Contributed by: {climb.fields.author}</p>
