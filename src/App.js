@@ -4,11 +4,11 @@ import './App.css';
 import { Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home';
 import Boulder from './components/Boulder';
 import Form from './components/Form';
 import About from './components/About';
 import Details from './components/Details';
+import Footer from './components/Footer';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { baseURL, config } from './services';

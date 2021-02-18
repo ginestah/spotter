@@ -107,7 +107,7 @@ data snippet from airtable API
 | Basic CSS for each component             |    M     |      3hrs      |               |             |
 | Media Queries for mobile                 |    H     |      3hrs      |               |             |
 | Post MVP Styling                         |    L     |      3hrs      |               |             |
-| Post MVP rating                          |    L     |      3hrs      |               |             |
+| Post MVP rating                          |    L     |      3hrs      |     3hrs      |    3hrs     |
 | Post MVP carousel view                   |    L     |                |               |
 | Total                                    |          |     37hrs      |               |             |
 
