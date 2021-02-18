@@ -1,12 +1,17 @@
 body {
   background-color: #66101f;
+  font-family: "Josefin Sans", sans-serif;
 }
 .App {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .boulder-photo {
-  border-radius: 25%;
+  border-radius: 20%;
   width: 50vmin;
   height: auto;
+}
+.boulder-photo:hover {
+  box-shadow: 0 0 11px rgb(122, 122, 122);
 }

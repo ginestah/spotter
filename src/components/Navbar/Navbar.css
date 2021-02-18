@@ -13,15 +13,21 @@ header {
   height: 20vh;
   flex-shrink: 0;
   flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 header h5 {
   text-align: center;
   float: left;
-  font-size: 1.2em;
-  color: #306b34;
+  font-size: larger;
+  color: #32533d;
+  align-self: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6;
 }
 #nav-links a {
-  color: #cadbc0;
+  color: #32533d;
   text-decoration: none;
-  padding: 5px;
+}
+#nav-links a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6;
 }

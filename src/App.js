@@ -15,6 +15,7 @@ import { baseURL, config } from './services';
 
 function App() {
   const [boulders, setBoulders] = useState([]);
+  const [toggleFetch, setToggleFetch] = useState(false);
 
   useEffect(() => {
     const getBoulders = async () => {
@@ -23,7 +24,7 @@ function App() {
       setBoulders(resp.data.records);
     };
     getBoulders();
-  }, []);
+  }, [toggleFetch]);
 
   return (
     <div className="App">
@@ -32,10 +33,10 @@ function App() {
         <Boulder boulders={boulders} />
         </Route>
       <Route path="/details/:id">
-        <Details boulders={boulders} />
+        <Details setToggleFetch={setToggleFetch} boulders={boulders} />
       </Route>
       <Route exact path='/new'>
-        <Form />
+        <Form setToggleFetch={setToggleFetch} />
       </Route>
       <Route exact path='/about'>
         <About/>

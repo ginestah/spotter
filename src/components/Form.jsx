@@ -4,13 +4,14 @@ import { baseURL, config } from "../services";
 import { useHistory, useParams } from "react-router-dom";
 import "./Form.css";
 
-function Form() {
+function Form(props) {
   const [title, setTitle] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [location, setLocation] = useState("");
   const [photo, setPhoto] = useState("");
   const [description, setDescription] = useState("");
   const [author, setAuthor] = useState("");
+  const [quality, setQuality] = useState(0);
   const history = useHistory();
 
   const checkButton = () => {
@@ -52,6 +53,7 @@ function Form() {
     };
     await axios.post(baseURL, { fields }, config);
     history.push("/");
+    props.setToggleFetch((curr) => !curr);
   };
 
   return (
@@ -103,6 +105,17 @@ function Form() {
               type="text"
               id="author"
               onChange={(e) => setAuthor(e.target.value)}
+            ></input>
+          </li>
+          <li>
+            <label htmlFor="quality">Quality? 1-5 Stars</label>
+            <input
+              type="number"
+              value={quality}
+              id="quality"
+              min={1}
+              max={5}
+              onChange={(e) => setQuality(e.target.value)}
             ></input>
           </li>
           <li>
