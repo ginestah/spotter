@@ -1,6 +1,6 @@
 footer {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   height: 8vh;
   padding: 10px;
   flex-shrink: 0;

@@ -10,21 +10,13 @@
   width: 70vw;
   height: auto;
 }
-/* .rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  text-align: center;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-  content: "\2605";
-  color: gold;
-} */
 .rating {
   color: gold;
+  cursor: pointer;
 }
 .rating:hover ~ .rating {
   color: #cadbc0;
+  cursor: pointer;
 }
 .current-rating {
   color: gold;

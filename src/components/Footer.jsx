@@ -9,10 +9,10 @@ class Footer extends Component {
           target="_blank"
           href="https://www.linkedin.com/in/huckleberry-ginesta-84155b186/"
         >
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
         <a target="_blank" href="https://github.com/ginestah">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <p>&copy;Huckleberry Ginesta 2021</p>
       </footer>
