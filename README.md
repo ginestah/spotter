@@ -2,7 +2,7 @@
 
 ## App Name
 
-Spotter
+Spotters
 
 ## Project Description
 
@@ -85,9 +85,9 @@ data snippet from airtable API
 | ----------- | -------------------------------------------------- | ---------- |
 | February 15 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
 | February 16 | Project Approval                                   | Complete   |
-| Febryary 17 | Finished components, base clickable model          | Incomplete |
-| February 18 | Add media queries for mobile site                  | Incomplete |
-| February 19 | MVP                                                | Incomplete |
+| Febryary 17 | Finished components, base clickable model          | Complete   |
+| February 18 | Add media queries for mobile site                  | Complete   |
+| February 19 | MVP                                                | Complete   |
 | February 20 | Post-MVPs                                          | Incomplete |
 | February 23 | Presentations                                      | Incomplete |
 
@@ -98,14 +98,14 @@ data snippet from airtable API
 | Creating more starter data in airtable   |    H     |      1hr       |     30min     |    30min    |
 | Nav Component                            |    H     |      2hrs      |      1hr      |     1hr     |
 | Home Component                           |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Boulder Component                        |    H     |      3hrs      |               |             |
+| Boulder Component                        |    H     |      3hrs      |     2hrs      |    2hrs     |
 | Detail Component                         |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Form Component                           |    H     |      3hrs      |     3hrs      |    3hrs     |
 | About Component                          |    H     |      2hrs      |               |             |
 | Linking/Routing Components               |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Figuring out params for detail component |    H     |      3hrs      |               |             |
 | Basic CSS for each component             |    M     |      3hrs      |               |             |
-| Media Queries for mobile                 |    H     |      3hrs      |               |             |
+| Media Queries for mobile                 |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Post MVP Styling                         |    L     |      3hrs      |               |             |
 | Post MVP rating                          |    L     |      3hrs      |     3hrs      |    3hrs     |
 | Post MVP carousel view                   |    L     |                |               |
