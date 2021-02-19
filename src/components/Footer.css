@@ -7,10 +7,13 @@ footer {
   background-color: #f3b3a6;
   color: #32533d;
 }
-a {
+footer a {
   align-self: center;
   color: #32533d;
   margin: 5px;
+}
+footer a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6;
 }
 footer p {
   align-self: center;
