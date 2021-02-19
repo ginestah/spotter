@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import { baseURL, config } from "../services";
+import { baseURL, config } from "../../services";
 import { useHistory } from "react-router-dom";
 import "./Form.css";
 import { useMediaPredicate } from "react-media-hook";

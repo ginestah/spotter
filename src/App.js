@@ -4,10 +4,10 @@ import './App.css';
 import { Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
-import Boulder from './components/Boulder';
-import Form from './components/Form';
-import About from './components/About';
-import Details from './components/Details';
+import Boulder from './components/Boulder/Boulder';
+import Form from './components/Form/Form';
+import About from './components/About/About';
+import Details from './components/Details/Details';
 import Footer from './components/Footer';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -20,7 +20,6 @@ function App() {
   useEffect(() => {
     const getBoulders = async () => {
       const resp = await axios.get(baseURL, config);
-      console.log(resp.data.records);
       setBoulders(resp.data.records);
     };
     getBoulders();
@@ -30,7 +29,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Route exact path='/'>
-        <Boulder boulders={boulders} />
+        {boulders.map((boulder => (
+          <Boulder key={boulder.id} boulder={boulder} />
+        )))}
         </Route>
       <Route path="/details/:id">
         <Details setToggleFetch={setToggleFetch} boulders={boulders} />
@@ -41,6 +42,7 @@ function App() {
       <Route exact path='/about'>
         <About/>
       </Route>
+      <Footer/>
     </div>
   );
 }

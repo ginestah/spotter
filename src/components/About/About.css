@@ -1,0 +1,10 @@
+#about-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+#about {
+  max-width: 500px;
+}

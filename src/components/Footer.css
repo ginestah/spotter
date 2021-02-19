@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 8vh;
+  padding: 10px;
+  flex-shrink: 0;
+  background-color: #f3b3a6;
+  color: #32533d;
+}
+a {
+  align-self: center;
+  color: #32533d;
+  margin: 5px;
+}
+footer p {
+  align-self: center;
+}
