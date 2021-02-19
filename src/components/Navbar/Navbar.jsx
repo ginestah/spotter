@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useMediaPredicate } from "react-media-hook";
-import Burger from "../Burger";
+import Burger from "./Burger";
 import "./Navbar.css";
 function Navbar(props) {
   const smallerThan500 = useMediaPredicate("(max-width:500px)");
@@ -24,7 +24,7 @@ function Navbar(props) {
             <li>
               <Link to="/about">About</Link>
             </li>
-          </ul>{" "}
+          </ul>
         </nav>
       )}
     </header>

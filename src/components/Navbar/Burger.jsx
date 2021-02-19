@@ -13,8 +13,8 @@ const MenuLabel = styled.label`
   top: 0.5rem;
   right: 2rem;
   border-radius: 50%;
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
   cursor: pointer;
   z-index: 1000;
   box-shadow: 1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6;
@@ -23,8 +23,8 @@ const MenuLabel = styled.label`
 
 const NavBackground = styled.div`
   position: fixed;
-  top: 6rem;
-  right: 6rem;
+  top: 3rem;
+  right: 3rem;
   background-image: radial-gradient(
     ${COLORS.primaryDark},
     ${COLORS.primaryLight}
@@ -39,17 +39,23 @@ const NavBackground = styled.div`
 
 const Icon = styled.span`
   position: relative;
-  background-color: ${(props) => (props.clicked ? "transparent" : "black")};
-  width: 3rem;
+  background-color: ${(props) => (props.clicked ? "transparent" : "#66101f")};
+
+  box-shadow: ${(props) =>
+    props.clicked
+      ? "none"
+      : "1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6"};
+  width: 2rem;
   height: 2px;
   display: inline-block;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   transition: all 0.3s;
   &::before,
   &::after {
     content: "";
-    background-color: black;
-    width: 3rem;
+    box-shadow: 1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6;
+    background-color: #66101f;
+    width: 2rem;
     height: 2px;
     display: inline-block;
     position: absolute;
@@ -95,6 +101,7 @@ const List = styled.ul`
 const ItemLink = styled(NavLink)`
   display: inline-block;
   font-size: 3rem;
+  text-shadow: 1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6;
   font-weight: 300;
   text-decoration: none;
   color: ${COLORS.primaryLight};
