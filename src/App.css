@@ -15,3 +15,6 @@ body {
 .boulder-photo:hover {
   box-shadow: 0 0 11px rgb(122, 122, 122);
 }
+#about {
+  max-width: 500px;
+}

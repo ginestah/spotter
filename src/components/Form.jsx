@@ -1,10 +1,13 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { baseURL, config } from "../services";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "./Form.css";
+import { useMediaPredicate } from "react-media-hook";
 
 function Form(props) {
+  const smallerThan600 = useMediaPredicate("(max-width:600px)");
+  const largerThan600 = useMediaPredicate("(min-width:600px)");
   const [title, setTitle] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [location, setLocation] = useState("");
@@ -50,6 +53,7 @@ function Form(props) {
       photo,
       description,
       author,
+      quality: Number(quality),
     };
     await axios.post(baseURL, { fields }, config);
     history.push("/");
@@ -61,17 +65,19 @@ function Form(props) {
       <form onSubmit={handleSubmit}>
         <ul className="flex-outer">
           <li>
-            <label htmlFor="title">Title:</label>
+            <label htmlFor="title">{largerThan600 && "Title:"}</label>
             <input
               value={title}
               type="text"
               id="title"
+              placeholder={smallerThan600 ? "Title:" : null}
               onChange={(e) => setTitle(e.target.value)}
             ></input>
           </li>
           <li>
-            <label htmlFor="difficulty">Difficulty:</label>
+            <label htmlFor="difficulty">{largerThan600 && "Difficulty:"}</label>
             <input
+              placeholder={smallerThan600 ? "Difficulty" : null}
               value={difficulty}
               type="text"
               id="difficulty"
@@ -79,8 +85,9 @@ function Form(props) {
             ></input>
           </li>
           <li>
-            <label htmlFor="location">Location:</label>
+            <label htmlFor="location">{largerThan600 && "Location:"}</label>
             <input
+              placeholder={smallerThan600 ? "Location" : null}
               value={location}
               type="text"
               id="location"
@@ -89,9 +96,10 @@ function Form(props) {
           </li>
           <li>
             <label htmlFor="photo-url">
-              Photo URL(please use hosting site for photos):
+              {largerThan600 && "Photo URL(please use hosting site):"}
             </label>
             <input
+              placeholder={smallerThan600 ? "URL to photo" : null}
               value={photo}
               type="text"
               id="photo-url"
@@ -99,8 +107,9 @@ function Form(props) {
             ></input>
           </li>
           <li>
-            <label htmlFor="author">Author:</label>
+            <label htmlFor="author">{largerThan600 && "Author:"}</label>
             <input
+              placeholder={smallerThan600 ? "Author" : null}
               value={author}
               type="text"
               id="author"
@@ -109,19 +118,21 @@ function Form(props) {
           </li>
           <li>
             <label htmlFor="quality">Quality? 1-5 Stars</label>
-            <input
-              type="number"
-              value={quality}
-              id="quality"
-              min={1}
-              max={5}
-              onChange={(e) => setQuality(e.target.value)}
-            ></input>
+            <select onChange={(e) => setQuality(e.target.value)}>
+              <option value={1}>1</option>
+              <option value={2}>2</option>
+              <option value={3}>3</option>
+              <option value={4}>4</option>
+              <option value={5}>5</option>
+            </select>
           </li>
           <li>
-            <label htmlFor="description">Description:</label>
+            <label htmlFor="description">
+              {largerThan600 && "Description:"}
+            </label>
             <textarea
-              cols="60"
+              placeholder={smallerThan600 ? "Description" : null}
+              cols={smallerThan600 ? "22" : "50"}
               rows="5"
               value={description}
               type="text"

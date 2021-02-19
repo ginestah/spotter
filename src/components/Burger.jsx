@@ -17,7 +17,7 @@ const MenuLabel = styled.label`
   width: 5rem;
   cursor: pointer;
   z-index: 1000;
-  box-shadow: 0 1rem 3rem #f3b3a6);
+  box-shadow: 1px 1px 2px black, 0 0 25px #cadbc0, 0 0 5px #f3b3a6;
   text-align: center;
 `;
 
@@ -133,13 +133,13 @@ function Burger() {
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/about">
-              About
+            <ItemLink onClick={handleClick} to="/new">
+              Add Boulder
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/new">
-              Add Boulder
+            <ItemLink onClick={handleClick} to="/about">
+              About
             </ItemLink>
           </li>
         </List>

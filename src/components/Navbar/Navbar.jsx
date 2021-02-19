@@ -12,19 +12,6 @@ function Navbar(props) {
         <br />A Boulder Library
       </h5>
       <Burger />
-      {/* <nav id="nav" id="main-menu">
-        <ul id="nav-links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/new">Add Problem</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul> */}
-      {/* </nav> */}
     </header>
   );
 }
