@@ -18,8 +18,8 @@ function About() {
           climbs in a specific area.
           <p>
             For now this site is only for bouldering, but in the future I would
-            be wanting to add another section for sport climbing and trad climbs
-            as well. The locations are vague, if you would like to know more
+            want to add another section for sport climbing and trad climbs as
+            well. The locations are vague, if you would like to know more
             accurate locations you can{" "}
             <a href="mailto:ginestah@gmail.com?subject=Spotter Location Inquiry">
               email me

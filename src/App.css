@@ -18,14 +18,20 @@ body {
 }
 #boulder {
   margin: 10px;
-  font-size: 5vh;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 #boulder-text {
-  font-size: small;
+  font-size: 1vh;
   text-align: center;
   position: absolute;
   top: 16px;
   left: 16px;
   color: aliceblue;
+}
+@media only screen and (min-width: 600px) {
+  #boulder-text {
+    font-size: smaller;
+  }
 }
