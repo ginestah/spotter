@@ -88,7 +88,7 @@ data snippet from airtable API
 | Febryary 17 | Finished components, base clickable model          | Complete   |
 | February 18 | Add media queries for mobile site                  | Complete   |
 | February 19 | MVP                                                | Complete   |
-| February 20 | Post-MVPs                                          | Incomplete |
+| February 20 | Post-MVPs                                          | Complete   |
 | February 23 | Presentations                                      | Incomplete |
 
 ## Timeframes
@@ -101,15 +101,62 @@ data snippet from airtable API
 | Boulder Component                        |    H     |      3hrs      |     2hrs      |    2hrs     |
 | Detail Component                         |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Form Component                           |    H     |      3hrs      |     3hrs      |    3hrs     |
-| About Component                          |    H     |      2hrs      |               |             |
+| About Component                          |    H     |      2hrs      |      1hr      |     1hr     |
 | Linking/Routing Components               |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Figuring out params for detail component |    H     |      3hrs      |               |             |
-| Basic CSS for each component             |    M     |      3hrs      |               |             |
+| Figuring out params for detail component |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Basic CSS for each component             |    M     |      3hrs      |     3hrs      |    3hrs     |
 | Media Queries for mobile                 |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Post MVP Styling                         |    L     |      3hrs      |               |             |
+| Post MVP Styling                         |    L     |      3hrs      |     6hrs      |    6hrs     |
 | Post MVP rating                          |    L     |      3hrs      |     3hrs      |    3hrs     |
-| Post MVP carousel view                   |    L     |                |               |
-| Total                                    |          |     37hrs      |               |             |
+| Total                                    |          |     34hrs      |    33.5hrs    |   33.5hrs   |
+
+### Code-Snippet
+
+One of the features I wanted to implement was a rating system, the problem I had was that I don't have a real backend, so users cant exist it was hard to figure out how to get an accurate average, and store that average over multiple sessions. I came up with this switch case in order to accomplish my goal. Ratings was a variable I added in order to keep track of the number of people that had clicked and than when someone clicked their rating I updated ratings by +1, and found the new average by taking the old "quality" multiplying it by the previous number of ratings adding the new quality, and dividing that by the previous number of ratings +1. The fullcode is within the src/components/Details/Details.jsx if you want more context.
+
+```javascript
+//variable for new quality based on ratings.
+let newQuality = 0;
+//function to handle clicks and assign an accurate average.
+//the variable x is the id of which span is clicked.
+const handleClick = (e) => {
+  let x = e.target.id;
+  switch (x) {
+    case "one":
+      newQuality =
+        (climb.fields.quality * climb.fields.ratings + 1) /
+        (climb.fields.ratings + 1);
+      patchQuality();
+      break;
+    case "two":
+      newQuality =
+        (climb.fields.quality * climb.fields.ratings + 2) /
+        (climb.fields.ratings + 1);
+      patchQuality();
+      break;
+    case "three":
+      newQuality =
+        (climb.fields.quality * climb.fields.ratings + 3) /
+        (climb.fields.ratings + 1);
+      patchQuality();
+      break;
+    case "four":
+      newQuality =
+        (climb.fields.quality * climb.fields.ratings + 4) /
+        (climb.fields.ratings + 1);
+      patchQuality();
+      break;
+    case "five":
+      newQuality =
+        (climb.fields.quality * climb.fields.ratings + 5) /
+        (climb.fields.ratings + 1);
+      patchQuality();
+      break;
+    default:
+      return false;
+  }
+};
+```
 
 ### Strengths:
 
