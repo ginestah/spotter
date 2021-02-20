@@ -54,6 +54,7 @@ function Form(props) {
       description,
       author,
       quality: Number(quality),
+      ratings: 1,
     };
     await axios.post(baseURL, { fields }, config);
     history.push("/");
