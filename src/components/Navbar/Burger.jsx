@@ -127,7 +127,7 @@ function Burger() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <MenuLabel htmlFor="navi-toggle" onTouchStart={handleClick}>
+      <MenuLabel htmlFor="navi-toggle" onClick={handleClick}>
         <Icon clicked={click}>&nbsp;</Icon>
       </MenuLabel>
       <NavBackground clicked={click}>&nbsp;</NavBackground>
@@ -135,22 +135,22 @@ function Burger() {
       <Navigation clicked={click}>
         <List>
           <li>
-            <ItemLink onTouchStart={handleClick} to="/">
+            <ItemLink onClick={handleClick} to="/">
               Home
             </ItemLink>
           </li>
           <li>
-            <ItemLink onTouchStart={handleClick} to="/new">
+            <ItemLink onClick={handleClick} to="/new">
               Add Boulder
             </ItemLink>
           </li>
           <li>
-            <ItemLink onTouchStart={handleClick} to="/about">
+            <ItemLink onClick={handleClick} to="/about">
               About
             </ItemLink>
           </li>
           <li>
-            <ItemLink onTouchStart={handleClick} to="/search">
+            <ItemLink onClick={handleClick} to="/search">
               Search
             </ItemLink>
           </li>
