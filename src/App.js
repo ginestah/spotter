@@ -8,8 +8,8 @@ import Boulder from './components/Boulder/Boulder';
 import Form from './components/Form/Form';
 import About from './components/About/About';
 import Details from './components/Details/Details';
-import Footer from './components/Footer';
-import Search from './components/Search'
+import Footer from './components/Footer/Footer';
+import Search from './components/Search/Search'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { baseURL, config } from './services';
@@ -29,6 +29,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Route exact path ="/">
+        <h2>Click on a photo for more details of the climb</h2>
+        </Route>
       <Route exact path='/'>
         {boulders.map((boulder => (
           <Boulder key={boulder.id} boulder={boulder} />

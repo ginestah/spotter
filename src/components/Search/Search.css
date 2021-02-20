@@ -1,0 +1,17 @@
+#search-parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.search {
+  font-size: 1.1rem;
+  margin: 10px;
+  padding: 5px;
+}
+#filler {
+  height: 70vh;
+}
+label {
+  font-size: larger;
+}

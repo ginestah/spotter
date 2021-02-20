@@ -9,7 +9,7 @@ body {
   flex-direction: column;
 }
 .boulder-photo {
-  border-radius: 20%;
+  border-radius: 10%;
   width: 50vw;
   height: auto;
 }
@@ -19,4 +19,13 @@ body {
 #boulder {
   margin: 10px;
   font-size: 5vh;
+  position: relative;
+}
+#boulder-text {
+  font-size: small;
+  text-align: center;
+  position: absolute;
+  bottom: 16px;
+
+  color: aliceblue;
 }
