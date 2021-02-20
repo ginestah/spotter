@@ -5,6 +5,12 @@
   justify-content: center;
   margin: 10px;
 }
+#about-container h2 {
+  font-size: 7vw;
+  align-self: center;
+}
 #about {
-  max-width: 500px;
+  align-self: center;
+  max-width: 80vw;
+  font-size: 6vh;
 }

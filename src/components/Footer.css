@@ -6,6 +6,7 @@ footer {
   flex-shrink: 0;
   background-color: #f3b3a6;
   color: #32533d;
+  bottom: 0;
 }
 footer a {
   align-self: center;

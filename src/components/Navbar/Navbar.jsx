@@ -10,23 +10,28 @@ function Navbar(props) {
         Spotter:
         <br />A Boulder Library
       </h5>
-      {smallerThan500 ? (
-        <Burger />
-      ) : (
-        <nav id="nav" id="main-menu">
-          <ul id="nav-links">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/new">Add Problem</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-        </nav>
-      )}
+      <div className="main-menu">
+        {smallerThan500 ? (
+          <Burger />
+        ) : (
+          <nav id="nav">
+            <ul id="nav-links">
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/new">Add Problem</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/search">Search</Link>
+              </li>
+            </ul>
+          </nav>
+        )}
+      </div>
     </header>
   );
 }

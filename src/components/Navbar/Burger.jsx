@@ -149,6 +149,11 @@ function Burger() {
               About
             </ItemLink>
           </li>
+          <li>
+            <ItemLink onTouchStart={handleClick} to="/search">
+              Search
+            </ItemLink>
+          </li>
         </List>
       </Navigation>
     </>

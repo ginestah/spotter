@@ -117,7 +117,9 @@ function Form(props) {
             ></input>
           </li>
           <li>
-            <label htmlFor="quality">Quality? 1-5 Stars</label>
+            <label htmlFor="quality">
+              <span id="stars">☆</span>'s
+            </label>
             <select onChange={(e) => setQuality(e.target.value)}>
               <option value={1}>1</option>
               <option value={2}>2</option>
@@ -130,6 +132,7 @@ function Form(props) {
             <label htmlFor="description">
               {largerThan600 && "Description:"}
             </label>
+            <br />
             <textarea
               placeholder={smallerThan600 ? "Description" : null}
               cols={smallerThan600 ? "22" : "50"}

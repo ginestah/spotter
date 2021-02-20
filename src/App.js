@@ -9,6 +9,7 @@ import Form from './components/Form/Form';
 import About from './components/About/About';
 import Details from './components/Details/Details';
 import Footer from './components/Footer';
+import Search from './components/Search'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { baseURL, config } from './services';
@@ -42,7 +43,11 @@ function App() {
       <Route exact path='/about'>
         <About/>
       </Route>
-      <Footer/>
+      <Route path='/search'>
+        <Search boulders={boulders} />
+        </Route>
+      <Footer />
+     
     </div>
   );
 }
