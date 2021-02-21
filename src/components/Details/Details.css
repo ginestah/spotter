@@ -1,5 +1,9 @@
 #details {
-  display: grid;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
   color: #cadbc0;
   border: 1px solid #b98b82;
   padding: 2px;
@@ -7,7 +11,7 @@
 }
 
 #details-photo {
-  width: 70vw;
+  width: 65vw;
   height: auto;
 }
 .rating {
@@ -16,7 +20,6 @@
 }
 .rating:hover ~ .rating {
   color: #cadbc0;
-  cursor: pointer;
 }
 .current-rating {
   color: gold;
