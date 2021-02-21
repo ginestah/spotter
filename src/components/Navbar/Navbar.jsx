@@ -4,6 +4,7 @@ import Burger from "./Burger";
 import "./Navbar.css";
 function Navbar(props) {
   const smallerThan500 = useMediaPredicate("(max-width:500px)");
+  const smallerThan500height = useMediaPredicate("(max-height:500px)");
   return (
     <header>
       <h5>
@@ -11,7 +12,7 @@ function Navbar(props) {
         <br />A Boulder Library
       </h5>
       <div className="main-menu">
-        {smallerThan500 ? (
+        {smallerThan500 || smallerThan500height ? (
           <Burger />
         ) : (
           <nav id="nav">
