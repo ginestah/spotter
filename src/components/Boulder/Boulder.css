@@ -1,0 +1,29 @@
+.boulder-photo {
+  border-radius: 10%;
+  width: 50vw;
+  height: auto;
+}
+.boulder-photo:hover {
+  box-shadow: 0 0 11px rgb(122, 122, 122);
+}
+#boulder {
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  display: flex;
+}
+#boulder-text {
+  font-size: 1vh;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  color: aliceblue;
+}
+@media only screen and (min-width: 600px) {
+  #boulder-text {
+    font-size: smaller;
+  }
+}

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./Boulder.css";
 
 function Boulder(props) {
   return (
