@@ -94,14 +94,14 @@ data snippet from airtable API
 | Linking/Routing Components               |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Figuring out params for detail component |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Basic CSS for each component             |    M     |      3hrs      |     3hrs      |    3hrs     |
-| Media Queries for mobile                 |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Media Queries for mobile                 |    H     |      3hrs      |     6hrs      |    3hrs     |
 | Post MVP Styling                         |    L     |      3hrs      |     6hrs      |    6hrs     |
 | Post MVP rating                          |    L     |      3hrs      |     3hrs      |    3hrs     |
-| Total                                    |          |     34hrs      |    33.5hrs    |   33.5hrs   |
+| Total                                    |          |    36.5hrs     |    36.5hrs    |   39.5hrs   |
 
 ### Code-Snippet
 
-One of the features I wanted to implement was a rating system, the problem I had was that I don't have a real backend, so users cant exist it was hard to figure out how to get an accurate average, and store that average over multiple sessions. I came up with this switch case in order to accomplish my goal. Ratings was a variable I added in order to keep track of the number of people that had clicked and than when someone clicked their rating I updated ratings by +1, and found the new average by taking the old "quality" multiplying it by the previous number of ratings adding the new quality, and dividing that by the previous number of ratings +1. The fullcode is within the src/components/Details/Details.jsx if you want more context.
+One of the features I wanted to implement was a rating system, the problem I had was that I don't have a real backend, so users cant exist, this made it hard to figure out how to get an accurate average, and store that average over multiple sessions. I came up with this switch case in order to accomplish my goal. Ratings was a variable I added in order to keep track of the number of people that had clicked and than when someone clicked their rating I updated ratings by +1, and found the new average by taking the old "quality" multiplying it by the previous number of ratings adding the new quality, and dividing that by the previous number of ratings +1. The fullcode is within the src/components/Details/Details.jsx if you want more context.
 
 ```javascript
 //variable for new quality based on ratings.
@@ -161,4 +161,4 @@ I think I will finish MVP ahead of schedule which will give me the opportunity t
 
 ### Threats:
 
-I don't foresee any threats, but I think I will have difficulty with some of my post-mvps and if I do I don't think my app will look as good as it could. I am really banking on a nice carousel but if it doesn't work I am not sure if it will look as good.
+I don't foresee any threats, but I think I will have difficulty with styling, which will make my site less visually pleasing
