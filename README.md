@@ -12,7 +12,7 @@ Spotter is a bouldering library for climbers. View problems that others have pos
 ## Wireframes
 
 desktop homepage
-![homepage wireframe](https://wireframe.cc/Ubruze)
+![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_350/v1614007395/Spotter/Screen_Shot_2021-02-22_at_10.21.24_AM_xbwx75.png)
 
 desktop form
 ![desktop form](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613492544/Spotter/Screen_Shot_2021-02-16_at_11.22.11_AM_tblmji.png)
