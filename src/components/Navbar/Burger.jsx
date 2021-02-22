@@ -140,13 +140,13 @@ function Burger() {
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/new">
-              Add Boulder
+            <ItemLink onClick={handleClick} to="/about">
+              About
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/about">
-              About
+            <ItemLink onClick={handleClick} to="/new">
+              Add Boulder
             </ItemLink>
           </li>
           <li>

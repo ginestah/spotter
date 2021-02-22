@@ -12,7 +12,7 @@ Spotter is a bouldering library for climbers. View problems that others have pos
 ## Wireframes
 
 desktop homepage
-![homepage wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613336079/Screen_Shot_2021-02-14_at_3.54.15_PM_cifxcr.png)
+![homepage wireframe](https://wireframe.cc/Ubruze)
 
 desktop form
 ![desktop form](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613492544/Spotter/Screen_Shot_2021-02-16_at_11.22.11_AM_tblmji.png)
@@ -36,35 +36,23 @@ Mobile Details
 data snippet from airtable API
 
 ```json
-{
-  "records": [
-    {
-      "id": "recUoGqKmfIUhHYuU",
-      "fields": {
-        "quality": "5",
-        "photo": "https://res.cloudinary.com/dpbzq29kr/image/upload/v1613317217/Screenshot_20210214-103820_2_ctmrr7.png",
-        "ratings": "1",
-        "difficulty": "V5",
-        "problem": "Rubber Walrus Protector",
-        "description": "very pressy climb, small holds so its important to stay tight to the wall. Make small moves moving up along the arete, keeping body tight.",
-        "author": "Huck",
-        "location": "Socorro,NM"
-      },
-      "createdTime": "2021-02-14T15:31:45.000Z"
-    },
-    {
-      "id": "recFdywHbnaSbYNbb",
-      "fields": {},
-      "createdTime": "2021-02-14T15:31:45.000Z"
-    },
-    {
-      "id": "recpwsJgyq43DSh3d",
-      "fields": {},
-      "createdTime": "2021-02-14T15:31:45.000Z"
-    }
-  ],
-  "offset": "recpwsJgyq43DSh3d"
-}
+"records": [
+
+
+        {
+            "id": "recFdywHbnaSbYNbb",
+            "fields": {
+                "quality": 4.76,
+                "photo": "https://res.cloudinary.com/dpbzq29kr/image/upload/v1613496105/Spotter/black_death_pfhgu9.jpg",
+                "ratings": 25,
+                "difficulty": "V7",
+                "title": "Black Death",
+                "description": "Thin (quarter pad) face holds to a powerful/shouldery throw to a decent ledge w/ left hand. Stick this and the remainder is casual",
+                "author": "Andrew Schmalzer",
+                "location": "Ortegas, NM"
+            },
+            "createdTime": "2021-02-14T15:31:45.000Z"
+        }
 ```
 
 #### MVP
