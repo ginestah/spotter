@@ -28,16 +28,13 @@ function Form(props) {
     ) {
       return (
         <div>
-          <button disabled={true} type="submit">
-            Uhoh!
-          </button>
-          <h3>Please fill out all inputs to submit form.</h3>
+          <h3 className="bouncy">Please fill out all inputs to submit form.</h3>
         </div>
       );
     } else {
       return (
         <div>
-          <button disabled={false} type="submit">
+          <button className="popOut vivify" disabled={false} type="submit">
             Submit
           </button>
         </div>

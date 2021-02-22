@@ -86,11 +86,10 @@ function Details(props) {
         </span>
       </div>
       <br />
-      <p>Ticks:{climb.fields.ratings}</p>
       <main id="details-description">{climb.fields.description}</main>
       <p>{climb.fields.location}</p>
       <p>Contributed by: {climb.fields.author}</p>
-      <p>Rated: {climb.fields.difficulty}</p>
+      <p>Difficuty: {climb.fields.difficulty}</p>
     </div>
   );
 }

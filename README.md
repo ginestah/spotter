@@ -18,7 +18,7 @@ desktop form
 ![desktop form](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613492544/Spotter/Screen_Shot_2021-02-16_at_11.22.11_AM_tblmji.png)
 
 desktop details
-![destop details page](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_400/v1613492106/Spotter/Screen_Shot_2021-02-16_at_11.14.34_AM_itymgr.png)
+![destop details page](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_350/v1614007641/Spotter/Screen_Shot_2021-02-22_at_10.26.06_AM_clc43n.png)
 
 Mobile Homepage
 ![mobile wireframe](https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,h_240/v1613431088/Spotter/Screen_Shot_2021-02-15_at_6.12.52_PM_lnolsv.png)

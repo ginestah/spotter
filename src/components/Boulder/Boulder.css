@@ -1,6 +1,6 @@
 .boulder-photo {
   border-radius: 10%;
-  width: 50vw;
+  width: 60vw;
   height: auto;
 }
 .boulder-photo:hover {
@@ -9,17 +9,14 @@
 #boulder {
   margin: 10px;
   position: relative;
-  display: flex;
   flex-wrap: wrap;
   align-self: center;
   display: flex;
+  flex-direction: column;
+  border: 1px solid #b98b82;
 }
 #boulder-text {
   font-size: 1vh;
-  text-align: center;
-  position: absolute;
-  top: 16px;
-  left: 20px;
   color: aliceblue;
 }
 @media only screen and (min-width: 600px) {
