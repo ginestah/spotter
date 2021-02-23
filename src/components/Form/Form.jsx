@@ -28,7 +28,16 @@ function Form(props) {
     ) {
       return (
         <div>
-          <h3 className="bouncy">Please fill out all inputs to submit form.</h3>
+          <h3 className="bouncy">
+            <span className="span-one">Please</span>
+            <span className="span-two"> fill </span>
+            <span className="span-three"> out</span>
+            <span className="span-four"> all</span>
+            <span className="span-five"> inputs</span>
+            <span className="span-six"> to</span>
+            <span className="span-seven"> submit</span>
+            <span className="span-nine"> form.</span>
+          </h3>
         </div>
       );
     } else {
