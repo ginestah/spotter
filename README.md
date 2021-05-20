@@ -1,8 +1,7 @@
-# Project Overview
 
-## App Name
+## Spotters
 
-Spotters
+
 [Live site](https://spotters.netlify.app/)
 
 ## Project Description
